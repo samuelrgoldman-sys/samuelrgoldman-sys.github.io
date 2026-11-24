@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam Goldman — Fundraising & Development</title>
-  <meta name="description" content="Sam Goldman is a fundraising professional helping mission-driven organizations build lasting donor relationships and grow sustainable revenue.">
+  <title>Samuel R. Goldman — Philanthropy & Partnerships</title>
+  <meta name="description" content="Samuel R. Goldman is a philanthropy and partnerships leader with nearly 20 years of experience building major gifts programs and donor strategy for mission-driven organizations.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -87,7 +87,7 @@
     .about p:first-of-type { color: var(--ink); font-size: 1.15rem; }
 
     /* Expertise */
-    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
     .card { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 30px; }
     .card h3 { font-size: 1.3rem; margin-bottom: 10px; }
     .card p { color: var(--ink-soft); font-size: 0.97rem; }
@@ -126,7 +126,17 @@
     .links a:hover { color: #fff; }
     footer { background: var(--ink); color: #7d8784; text-align: center; padding: 0 0 32px; font-size: 0.85rem; }
 
+    /* Education & honors */
+    .two-col { display: grid; grid-template-columns: 1fr 1.3fr; gap: 56px; }
+    .two-col h3 { font-size: 1.3rem; margin-bottom: 18px; }
+    .list-plain { list-style: none; }
+    .list-plain li { padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--ink-soft); }
+    .list-plain li:first-child { padding-top: 0; }
+    .list-plain strong { color: var(--ink); font-weight: 600; display: block; }
+    .job .summary { color: var(--ink-soft); font-style: italic; margin-bottom: 8px; }
+
     @media (max-width: 820px) {
+      .two-col { grid-template-columns: 1fr; gap: 40px; }
       nav ul { display: none; }
       .stats { grid-template-columns: repeat(2, 1fr); }
       .about { grid-template-columns: 1fr; gap: 36px; }
@@ -142,7 +152,7 @@
 
   <nav>
     <div class="wrap">
-      <a href="#" class="logo">Sam Goldman</a>
+      <a href="#" class="logo">Samuel R. Goldman</a>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#expertise">Expertise</a></li>
@@ -154,17 +164,17 @@
 
   <header class="hero">
     <div class="wrap">
-      <div class="eyebrow">Fundraising &amp; Development</div>
-      <h1>Turning shared purpose into lasting support.</h1>
-      <p class="lead">I help mission-driven organizations build genuine donor relationships, design campaigns that inspire generosity, and grow revenue that sustains their work for years to come.</p>
+      <div class="eyebrow">Philanthropy &amp; Partnerships</div>
+      <h1>Building philanthropy that lasts.</h1>
+      <p class="lead">For nearly 20 years I've designed and scaled philanthropic programs, sourcing and closing gifts from ultra-high-net-worth individuals, family offices, and foundations, and building major gifts programs from the ground up.</p>
       <a href="#contact" class="btn btn-primary">Get in touch</a>
       <a href="#experience" class="btn btn-ghost">View experience</a>
 
       <div class="stats" style="margin-top:72px">
-        <div class="stat"><div class="num">$X.XM</div><div class="label">Raised for nonprofits</div></div>
-        <div class="stat"><div class="num">XX+</div><div class="label">Major gifts secured</div></div>
-        <div class="stat"><div class="num">XX%</div><div class="label">Donor retention rate</div></div>
-        <div class="stat"><div class="num">X</div><div class="label">Years in development</div></div>
+        <div class="stat"><div class="num">$34M</div><div class="label">Annual fundraising grown from $1.7M at Burning Man Project</div></div>
+        <div class="stat"><div class="num">~20</div><div class="label">Years in philanthropy, policy, and social impact</div></div>
+        <div class="stat"><div class="num">9</div><div class="label">New national monuments in California</div></div>
+        <div class="stat"><div class="num">2.9M</div><div class="label">Acres of public land protected</div></div>
       </div>
     </div>
   </header>
@@ -174,10 +184,10 @@
       <div class="portrait" aria-label="Portrait placeholder">SG</div>
       <div>
         <div class="eyebrow">About</div>
-        <h2 style="font-size:clamp(1.9rem,3.5vw,2.6rem);margin-bottom:24px">Fundraising is relationship work.</h2>
-        <p>I believe the best fundraising happens when donors feel like true partners in a mission — not just a line in a database.</p>
-        <p>[Replace with your story: how you got into fundraising, the causes you care about, and what sets your approach apart. Two or three short paragraphs works well.]</p>
-        <p>[Add a sentence about the kinds of organizations you work with — e.g. education, health, arts, community development — and what you're looking for next.]</p>
+        <h2 style="font-size:clamp(1.9rem,3.5vw,2.6rem);margin-bottom:24px">A partnerships builder for mission-driven work.</h2>
+        <p>I build the relationships and funding architecture that let organizations do their most ambitious work, from first conversation to multi-year commitment.</p>
+        <p>I started as an organizer, running federal policy campaigns and coalitions that protected millions of acres of public land. That work taught me to align a program's impact with what people care about most, and it's still the heart of how I approach donors.</p>
+        <p>Since then I've launched first-ever major gifts programs, grown Burning Man Project's fundraising from $1.7M to $34M during the pandemic, built new development programs at the Aspen Institute, and today lead a new West Coast philanthropy program at One Acre Fund.</p>
       </div>
     </div>
   </section>
@@ -189,12 +199,10 @@
         <h2>How I help organizations grow</h2>
       </div>
       <div class="cards">
-        <div class="card"><div class="mark"></div><h3>Major Gifts</h3><p>Identifying, cultivating, and stewarding high-capacity donors through thoughtful, personal engagement.</p></div>
-        <div class="card"><div class="mark"></div><h3>Annual Giving</h3><p>Multi-channel appeals across mail, email, and digital that grow the base and lift retention year over year.</p></div>
-        <div class="card"><div class="mark"></div><h3>Campaigns</h3><p>Planning and executing capital and comprehensive campaigns, from feasibility through the final push.</p></div>
-        <div class="card"><div class="mark"></div><h3>Grant Writing</h3><p>Compelling proposals and reports for foundations and institutional funders that tell the story with data.</p></div>
-        <div class="card"><div class="mark"></div><h3>Events</h3><p>Galas, donor gatherings, and peer-to-peer events that raise money and deepen community.</p></div>
-        <div class="card"><div class="mark"></div><h3>Board &amp; Strategy</h3><p>Coaching boards and leadership to build a culture of philanthropy and a realistic development plan.</p></div>
+        <div class="card"><div class="mark"></div><h3>Major Gifts &amp; Donor Engagement</h3><p>Cultivating and closing major gifts from UHNW individuals, foundations, and family offices. Launched major gifts programs that secured multiple seven-figure commitments, and designed immersive donor experiences that deepen relationships.</p></div>
+        <div class="card"><div class="mark"></div><h3>Partnership &amp; Capital Strategy</h3><p>Building philanthropic and capital pipelines, including multi-year endowment campaigns and multi-million-dollar grantmaking portfolios, across grants, major gifts, and institutional partnerships.</p></div>
+        <div class="card"><div class="mark"></div><h3>Strategic Leadership &amp; Community</h3><p>Leading integrated teams across development, communications, and membership. Directing grassroots outreach and national policy campaigns, and aligning program impact with donor priorities.</p></div>
+        <div class="card"><div class="mark"></div><h3>Development Operations</h3><p>CRM implementation, pipeline management, and staff mentorship. Partnering with executive leadership and boards to run multi-year campaigns and organizational growth strategies.</p></div>
       </div>
     </div>
   </section>
@@ -207,29 +215,61 @@
       </div>
       <div class="timeline">
         <div class="job">
-          <div class="when">20XX — Present</div>
-          <h3>[Job Title]</h3>
-          <div class="org">[Organization Name] · [City, State]</div>
+          <div class="when">2025 — Present</div>
+          <h3>Director, Business Development</h3>
+          <div class="org">One Acre Fund</div>
+          <p class="summary">Hired to build a new West Coast philanthropic program focused on ultra-high-net-worth individuals.</p>
           <ul>
-            <li>[Key accomplishment with a number — e.g. grew annual fund by 35% in two years]</li>
-            <li>[Key accomplishment — e.g. managed a portfolio of 120 major-gift prospects]</li>
+            <li>Organizing a $1M campaign to expand tree nurseries in Southern Ethiopia, structured with a 1:1 matching commitment.</li>
+            <li>Building a Bay Area giving group of Kellogg School of Management alumni.</li>
+            <li>Cultivating a new major donor pipeline across San Francisco, Los Angeles, and Seattle, including salon-style gatherings with senior leadership.</li>
           </ul>
         </div>
         <div class="job">
-          <div class="when">20XX — 20XX</div>
-          <h3>[Job Title]</h3>
-          <div class="org">[Organization Name] · [City, State]</div>
+          <div class="when">2024 — 2025</div>
+          <h3>Senior Philanthropy Advisor</h3>
+          <div class="org">Burning Man Project</div>
+          <p class="summary">Recruited back by leadership to guide an urgent fundraising campaign.</p>
           <ul>
-            <li>[Key accomplishment]</li>
-            <li>[Key accomplishment]</li>
+            <li>Advised the CEO and board on high-impact funding strategies, ultra-HNW donor engagement, and revitalizing development operations.</li>
+            <li>Developed a roadmap for sustainable philanthropy aligned with the organization's long-term goals.</li>
           </ul>
         </div>
         <div class="job">
-          <div class="when">20XX — 20XX</div>
-          <h3>[Job Title]</h3>
-          <div class="org">[Organization Name] · [City, State]</div>
+          <div class="when">2023 — 2024</div>
+          <h3>Director, Development and Partnerships</h3>
+          <div class="org">Aspen Institute · Aspen Global Leadership Network</div>
           <ul>
-            <li>[Key accomplishment]</li>
+            <li>Launched a new development program for a coalition of 18 international fellowships.</li>
+            <li>Spearheaded the Technology Leaders Fellowship launch: assembled an advisory board, secured early investments, and set a long-term funding strategy.</li>
+            <li>Designed a five-year, multi-million-dollar endowment campaign.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="when">2017 — 2023</div>
+          <h3>Senior Manager, Philanthropic Engagement</h3>
+          <div class="org">Burning Man Project</div>
+          <ul>
+            <li>Grew the fundraising program from $1.7M to $34M during the pandemic through major donor cultivation, foundation partnerships, and comprehensive campaigns.</li>
+            <li>Launched the organization's first-ever major gifts program, securing multiple seven-figure gifts and a pipeline of 100+ donors.</li>
+            <li>Created high-touch donor experiences, including exclusive multi-day experiences and global fundraising events.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="when">2011 — 2017</div>
+          <h3>Director of Strategic Engagement</h3>
+          <div class="org">Conservation Lands Foundation</div>
+          <ul>
+            <li>Led a $1.5M annual grantmaking program plus $1M in training investment across 65 rural grassroots organizations, helping secure 9 new national monument designations in California.</li>
+            <li>Coached grassroots leaders on organizational, campaign, and development operations.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="when">2007 — 2011</div>
+          <h3>California Wilderness Coordinator</h3>
+          <div class="org">The Wilderness Society</div>
+          <ul>
+            <li>Directed federal policy campaigns protecting over 2.9 million acres, building coalitions with policymakers and advocacy organizations.</li>
           </ul>
         </div>
       </div>
@@ -237,24 +277,39 @@
   </section>
 
   <section>
-    <div class="wrap">
-      <blockquote>“[A short quote from a supervisor, board member, or donor about working with you.]”</blockquote>
-      <div class="cite">— [Name], [Title], [Organization]</div>
+    <div class="wrap two-col">
+      <div>
+        <div class="eyebrow">Education</div>
+        <ul class="list-plain">
+          <li><strong>B.A. Political Science</strong>Bates College, Lewiston, ME</li>
+          <li><strong>Reconciliation and Development</strong>School for International Training, Durban, South Africa</li>
+          <li><strong>Green Corps</strong>Field School for Environmental Organizing</li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow">Leadership &amp; Honors</div>
+        <ul class="list-plain">
+          <li><strong>Founder, Jewish Pride Fund</strong>A giving circle of 40 individuals supporting Jewish and LGBTQ charities</li>
+          <li><strong>Board Member, San Francisco Jewish Federation</strong>2014 — 2020</li>
+          <li><strong>Lloyd W. Dinkelspiel Award for Young Leadership</strong>2016 · For sustained leadership in the San Francisco Jewish community</li>
+          <li><strong>Wexner Heritage Program</strong>2011 · Three-year leadership and education program for lay leaders</li>
+          <li><strong>Benjamin E. Mays Award</strong>2003 · Bates College, for academic excellence</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <section id="contact" class="contact">
     <div class="wrap">
       <h2>Let's talk about your mission.</h2>
-      <p>Whether you're hiring, planning a campaign, or just want to swap ideas about philanthropy, I'd love to hear from you.</p>
-      <a href="mailto:you@example.com" class="btn btn-primary">Email me</a>
+      <p>Whether you're building a major gifts program, planning a campaign, or exploring a partnership, I'd love to hear from you.</p>
+      <a href="mailto:samuelrgoldman@gmail.com" class="btn btn-primary">Email me</a>
       <div class="links">
-        <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
-        <a href="resume.pdf">Résumé (PDF)</a>
+        <a href="https://www.linkedin.com/in/samuelrgoldman/">LinkedIn</a>
       </div>
     </div>
   </section>
-  <footer>© 2026 Sam Goldman</footer>
+  <footer>© 2026 Samuel R. Goldman</footer>
 
 </body>
 </html>
